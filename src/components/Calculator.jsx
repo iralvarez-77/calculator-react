@@ -2,19 +2,8 @@ import '../components/Calculator'
 import '../assets/css/calculator.css'
 import Button from './Button';
 import Screen from './Screen';
-import { useDispatch, useSelector } from 'react-redux';
-import { evaluate } from 'mathjs';
-import { result } from '../slices/valueSlice';
 
 function Calculator() {
-
-  // const state = useSelector( state => state.myValue.value);
-  // const dispatch = useDispatch();
-
-  // const results = () => {
-  //   dispatch( result ( evaluate( state ) ))
-  // }
-
 
   return (
     <section className="container">

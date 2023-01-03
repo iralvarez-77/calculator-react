@@ -3,7 +3,6 @@
   background-color: #4b4b4b;
   border: none;
   color: white;
-  /* width: 3rem; */
   height: 3rem;
   flex: 1 1;
   font-weight: bold;
@@ -19,9 +18,4 @@
 
 .button-operator {
   background-color: orange;
-}
-
-.button-color-gray {
-  background-color: #cccccc;
-
 }

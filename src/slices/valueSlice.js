@@ -8,19 +8,17 @@ export const valueSlice = createSlice({
   name: 'valor',
   initialState,
   reducers: {
-    update: ( {value}, {payload} ) => {
+    update: ( { value }, { payload } ) => {
       return {
-        value : `${value}${payload}`,
+        value : value + payload,
       }
     },
-    result : (state, {payload}) => {
-      console.log(payload);
+    result : (_state, {payload}) => {
       return {
         value: payload,
       }
     },
-    reset : ( state, action ) => {
-      console.log(action);
+    reset : ( _state, action ) => {
       return {
         value : action.payload
       }
@@ -28,7 +26,6 @@ export const valueSlice = createSlice({
   },
 })
 
-// Action creators are generated for each case reducer function
 export const { update, result, reset } = valueSlice.actions
 
 export default valueSlice.reducer
