@@ -1,0 +1,15 @@
+
+.container {
+  background-color: black;
+  border-radius: 1.5rem;
+  width: 15rem;
+  /* height: 50vh; */
+  padding: 1rem;
+}
+
+.row {
+  margin: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
